@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C67FEEAD23EF810A00B73D02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67FEEAC23EF810A00B73D02 /* AppDelegate.swift */; };
+		C67FEEAF23EF810A00B73D02 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67FEEAE23EF810A00B73D02 /* SceneDelegate.swift */; };
+		C67FEEB123EF810A00B73D02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67FEEB023EF810A00B73D02 /* ViewController.swift */; };
+		C67FEEB423EF810A00B73D02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C67FEEB223EF810A00B73D02 /* Main.storyboard */; };
+		C67FEEB623EF810C00B73D02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C67FEEB523EF810C00B73D02 /* Assets.xcassets */; };
+		C67FEEB923EF810C00B73D02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C67FEEB723EF810C00B73D02 /* LaunchScreen.storyboard */; };
+		C67FEEC423EF810C00B73D02 /* foodtrackerappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67FEEC323EF810C00B73D02 /* foodtrackerappTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C67FEEC023EF810C00B73D02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C67FEEA123EF810A00B73D02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C67FEEA823EF810A00B73D02;
+			remoteInfo = foodtrackerapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C67FEEA923EF810A00B73D02 /* foodtrackerapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = foodtrackerapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C67FEEAC23EF810A00B73D02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C67FEEAE23EF810A00B73D02 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C67FEEB023EF810A00B73D02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C67FEEB323EF810A00B73D02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C67FEEB523EF810C00B73D02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C67FEEB823EF810C00B73D02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C67FEEBA23EF810C00B73D02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C67FEEBF23EF810C00B73D02 /* foodtrackerappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = foodtrackerappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C67FEEC323EF810C00B73D02 /* foodtrackerappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodtrackerappTests.swift; sourceTree = "<group>"; };
+		C67FEEC523EF810C00B73D02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C67FEEA623EF810A00B73D02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C67FEEBC23EF810C00B73D02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C67FEEA023EF810A00B73D02 = {
+			isa = PBXGroup;
+			children = (
+				C67FEEAB23EF810A00B73D02 /* foodtrackerapp */,
+				C67FEEC223EF810C00B73D02 /* foodtrackerappTests */,
+				C67FEEAA23EF810A00B73D02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C67FEEAA23EF810A00B73D02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C67FEEA923EF810A00B73D02 /* foodtrackerapp.app */,
+				C67FEEBF23EF810C00B73D02 /* foodtrackerappTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C67FEEAB23EF810A00B73D02 /* foodtrackerapp */ = {
+			isa = PBXGroup;
+			children = (
+				C67FEEAC23EF810A00B73D02 /* AppDelegate.swift */,
+				C67FEEAE23EF810A00B73D02 /* SceneDelegate.swift */,
+				C67FEEB023EF810A00B73D02 /* ViewController.swift */,
+				C67FEEB223EF810A00B73D02 /* Main.storyboard */,
+				C67FEEB523EF810C00B73D02 /* Assets.xcassets */,
+				C67FEEB723EF810C00B73D02 /* LaunchScreen.storyboard */,
+				C67FEEBA23EF810C00B73D02 /* Info.plist */,
+			);
+			path = foodtrackerapp;
+			sourceTree = "<group>";
+		};
+		C67FEEC223EF810C00B73D02 /* foodtrackerappTests */ = {
+			isa = PBXGroup;
+			children = (
+				C67FEEC323EF810C00B73D02 /* foodtrackerappTests.swift */,
+				C67FEEC523EF810C00B73D02 /* Info.plist */,
+			);
+			path = foodtrackerappTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C67FEEA823EF810A00B73D02 /* foodtrackerapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C67FEEC823EF810C00B73D02 /* Build configuration list for PBXNativeTarget "foodtrackerapp" */;
+			buildPhases = (
+				C67FEEA523EF810A00B73D02 /* Sources */,
+				C67FEEA623EF810A00B73D02 /* Frameworks */,
+				C67FEEA723EF810A00B73D02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = foodtrackerapp;
+			productName = foodtrackerapp;
+			productReference = C67FEEA923EF810A00B73D02 /* foodtrackerapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C67FEEBE23EF810C00B73D02 /* foodtrackerappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C67FEECB23EF810C00B73D02 /* Build configuration list for PBXNativeTarget "foodtrackerappTests" */;
+			buildPhases = (
+				C67FEEBB23EF810C00B73D02 /* Sources */,
+				C67FEEBC23EF810C00B73D02 /* Frameworks */,
+				C67FEEBD23EF810C00B73D02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C67FEEC123EF810C00B73D02 /* PBXTargetDependency */,
+			);
+			name = foodtrackerappTests;
+			productName = foodtrackerappTests;
+			productReference = C67FEEBF23EF810C00B73D02 /* foodtrackerappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C67FEEA123EF810A00B73D02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Gwendolyn Howes";
+				TargetAttributes = {
+					C67FEEA823EF810A00B73D02 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					C67FEEBE23EF810C00B73D02 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = C67FEEA823EF810A00B73D02;
+					};
+				};
+			};
+			buildConfigurationList = C67FEEA423EF810A00B73D02 /* Build configuration list for PBXProject "foodtrackerapp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C67FEEA023EF810A00B73D02;
+			productRefGroup = C67FEEAA23EF810A00B73D02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C67FEEA823EF810A00B73D02 /* foodtrackerapp */,
+				C67FEEBE23EF810C00B73D02 /* foodtrackerappTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C67FEEA723EF810A00B73D02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C67FEEB923EF810C00B73D02 /* LaunchScreen.storyboard in Resources */,
+				C67FEEB623EF810C00B73D02 /* Assets.xcassets in Resources */,
+				C67FEEB423EF810A00B73D02 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C67FEEBD23EF810C00B73D02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C67FEEA523EF810A00B73D02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C67FEEB123EF810A00B73D02 /* ViewController.swift in Sources */,
+				C67FEEAD23EF810A00B73D02 /* AppDelegate.swift in Sources */,
+				C67FEEAF23EF810A00B73D02 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C67FEEBB23EF810C00B73D02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C67FEEC423EF810C00B73D02 /* foodtrackerappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C67FEEC123EF810C00B73D02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C67FEEA823EF810A00B73D02 /* foodtrackerapp */;
+			targetProxy = C67FEEC023EF810C00B73D02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C67FEEB223EF810A00B73D02 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C67FEEB323EF810A00B73D02 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C67FEEB723EF810C00B73D02 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C67FEEB823EF810C00B73D02 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C67FEEC623EF810C00B73D02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C67FEEC723EF810C00B73D02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C67FEEC923EF810C00B73D02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = foodtrackerapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.foodtrackerapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C67FEECA23EF810C00B73D02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = foodtrackerapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.foodtrackerapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C67FEECC23EF810C00B73D02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = foodtrackerappTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.foodtrackerappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/foodtrackerapp.app/foodtrackerapp";
+			};
+			name = Debug;
+		};
+		C67FEECD23EF810C00B73D02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = foodtrackerappTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.foodtrackerappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/foodtrackerapp.app/foodtrackerapp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C67FEEA423EF810A00B73D02 /* Build configuration list for PBXProject "foodtrackerapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C67FEEC623EF810C00B73D02 /* Debug */,
+				C67FEEC723EF810C00B73D02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C67FEEC823EF810C00B73D02 /* Build configuration list for PBXNativeTarget "foodtrackerapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C67FEEC923EF810C00B73D02 /* Debug */,
+				C67FEECA23EF810C00B73D02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C67FEECB23EF810C00B73D02 /* Build configuration list for PBXNativeTarget "foodtrackerappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C67FEECC23EF810C00B73D02 /* Debug */,
+				C67FEECD23EF810C00B73D02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C67FEEA123EF810A00B73D02 /* Project object */;
+}
