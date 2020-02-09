@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:foodtrackerapp.xcodeproj">
+      location = "self:/Users/gwendolynhowes/Desktop/Sophomore/foodtrackerapp/dogtrackerapp.xcodeproj">
    </FileRef>
 </Workspace>
