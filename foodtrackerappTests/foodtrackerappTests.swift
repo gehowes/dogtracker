@@ -1,15 +1,15 @@
 //
-//  dogtrackerappTests.swift
-//  dogtrackerappTests
+//  foodtrackerappTests.swift
+//  foodtrackerappTests
 //
 //  Created by Gwendolyn Howes on 08/02/2020.
 //  Copyright © 2020 Gwendolyn Howes. All rights reserved.
 //
 
 import XCTest
-@testable import dogtracker
+@testable import Dog_Tracker
 
-class dogtrackerappTests: XCTestCase {
+class foodtrackerappTests: XCTestCase {
 
 //MARK: Dog Class Tests
     
@@ -17,7 +17,7 @@ class dogtrackerappTests: XCTestCase {
     func testDogInitializationSucceeds() {
         
         // Zero rating
-        let zeroRatingMeal = Dog.init(name: "Zero", photo: nil, rating: 0)
+        let zeroRatingDog = Dog.init(name: "Zero", photo: nil, rating: 0)
         XCTAssertNotNil(zeroRatingDog)
         
         // Highest positive rating
@@ -29,16 +29,16 @@ class dogtrackerappTests: XCTestCase {
     func testDogInitializationFails() {
         
         // Negative rating
-        let negativeRatingDog = Dog.init(name: "Negative", photo: nil, rating: -1)
+       let negativeRatingDog = Dog.init(name: "Negative", photo: nil, rating: -1)
         XCTAssertNil(negativeRatingDog)
         
         // Rating exceeds maximum
-        let largeRatingDog = Dog.init(name: "Large", photo: nil, rating: 6)
-        XCTAssertNil(largeRatingDog)
+       let largeRatingDog = Dog.init(name: "Large", photo: nil, rating: 6)
+       XCTAssertNil(largeRatingDog)
         
         //Empty String
-        let emptyStringDog = Dog.init(name: "", photo: nil, rating: 0)
-        XCTAssertNil(emptyStringDog)
+       let emptyStringDog = Dog.init(name: "", photo: nil, rating: 0)
+       XCTAssertNil(emptyStringDog)
     }
 
 }

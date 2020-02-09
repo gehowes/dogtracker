@@ -17,7 +17,7 @@
                BlueprintIdentifier = "C67FEEA823EF810A00B73D02"
                BuildableName = "foodtrackerapp.app"
                BlueprintName = "foodtrackerapp"
-               ReferencedContainer = "container:dogtrackerapp.xcodeproj">
+               ReferencedContainer = "container:foodtrackerapp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "C67FEEBE23EF810C00B73D02"
                BuildableName = "foodtrackerappTests.xctest"
                BlueprintName = "foodtrackerappTests"
-               ReferencedContainer = "container:dogtrackerapp.xcodeproj">
+               ReferencedContainer = "container:foodtrackerapp.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,7 +57,7 @@
             BlueprintIdentifier = "C67FEEA823EF810A00B73D02"
             BuildableName = "foodtrackerapp.app"
             BlueprintName = "foodtrackerapp"
-            ReferencedContainer = "container:dogtrackerapp.xcodeproj">
+            ReferencedContainer = "container:foodtrackerapp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -74,7 +74,7 @@
             BlueprintIdentifier = "C67FEEA823EF810A00B73D02"
             BuildableName = "foodtrackerapp.app"
             BlueprintName = "foodtrackerapp"
-            ReferencedContainer = "container:dogtrackerapp.xcodeproj">
+            ReferencedContainer = "container:foodtrackerapp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

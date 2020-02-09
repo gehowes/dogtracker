@@ -10,13 +10,13 @@
         <!--Your Dogs-->
         <scene sceneID="lJY-Tt-wGQ">
             <objects>
-                <tableViewController id="Xjw-MV-12a" customClass="MealTableViewController" customModule="foodtrackerapp" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="Xjw-MV-12a" customClass="DogTableViewController" customModule="Dog_Tracker" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="90" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="aoq-x8-Xqc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MealTableViewCell" id="Svh-6e-GCZ" customClass="MealTableViewCell" customModule="foodtrackerapp" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="DogTableViewCell" id="Svh-6e-GCZ" customClass="DogTableViewCell" customModule="Dog_Tracker" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="414" height="90"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Svh-6e-GCZ" id="tH8-fw-iwS">
@@ -34,7 +34,7 @@
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <stackView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Uck-z0-rnh" customClass="RatingControl" customModule="foodtrackerapp" customModuleProvider="target">
+                                        <stackView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Uck-z0-rnh" customClass="RatingControl" customModule="Dog_Tracker" customModuleProvider="target">
                                             <rect key="frame" x="117" y="35" width="252" height="44"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         </stackView>
@@ -68,13 +68,13 @@
         <!--New Dog-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="MealViewController" customModule="foodtrackerapp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="DogViewController" customModule="Dog_Tracker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="0kY-VD-vKs">
-                                <rect key="frame" x="0.0" y="76" width="414" height="514"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="0kY-VD-vKs">
+                                <rect key="frame" x="0.0" y="76" width="414" height="508"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter dog name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nVJ-lo-jVG">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="34"/>
@@ -91,8 +91,8 @@
                                             <outletCollection property="gestureRecognizers" destination="1sw-0q-o6p" appends="YES" id="VOK-gU-g9M"/>
                                         </connections>
                                     </imageView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="4yg-iy-c7P" customClass="RatingControl" customModule="foodtrackerapp" customModuleProvider="target">
-                                        <rect key="frame" x="81" y="464" width="252" height="50"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="4yg-iy-c7P" customClass="RatingControl" customModule="Dog_Tracker" customModuleProvider="target">
+                                        <rect key="frame" x="81" y="464" width="252" height="44"/>
                                     </stackView>
                                 </subviews>
                                 <constraints>
@@ -191,6 +191,6 @@
         <image name="defaultPhoto" width="311" height="307"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="i9W-K0-qCA"/>
+        <segue reference="BYc-85-dDr"/>
     </inferredMetricsTieBreakers>
 </document>

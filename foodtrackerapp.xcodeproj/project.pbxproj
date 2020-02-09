@@ -13,7 +13,7 @@
 		C67FEEB423EF810A00B73D02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C67FEEB223EF810A00B73D02 /* Main.storyboard */; };
 		C67FEEB623EF810C00B73D02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C67FEEB523EF810C00B73D02 /* Assets.xcassets */; };
 		C67FEEB923EF810C00B73D02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C67FEEB723EF810C00B73D02 /* LaunchScreen.storyboard */; };
-		C67FEEC423EF810C00B73D02 /* dogtrackerappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67FEEC323EF810C00B73D02 /* dogtrackerappTests.swift */; };
+		C67FEEC423EF810C00B73D02 /* foodtrackerappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67FEEC323EF810C00B73D02 /* foodtrackerappTests.swift */; };
 		C67FEECF23EFA48600B73D02 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67FEECE23EFA48600B73D02 /* RatingControl.swift */; };
 		C67FEED123EFCB5400B73D02 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67FEED023EFCB5400B73D02 /* Dog.swift */; };
 		C67FEED523EFDC4400B73D02 /* DogTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67FEED423EFDC4400B73D02 /* DogTableViewCell.swift */; };
@@ -40,7 +40,7 @@
 		C67FEEB823EF810C00B73D02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C67FEEBA23EF810C00B73D02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C67FEEBF23EF810C00B73D02 /* foodtrackerappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = foodtrackerappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C67FEEC323EF810C00B73D02 /* dogtrackerappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dogtrackerappTests.swift; sourceTree = "<group>"; };
+		C67FEEC323EF810C00B73D02 /* foodtrackerappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodtrackerappTests.swift; sourceTree = "<group>"; };
 		C67FEEC523EF810C00B73D02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C67FEECE23EFA48600B73D02 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 		C67FEED023EFCB5400B73D02 /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
@@ -69,8 +69,8 @@
 		C67FEEA023EF810A00B73D02 = {
 			isa = PBXGroup;
 			children = (
-				C67FEEAB23EF810A00B73D02 /* dogtrackerapp */,
-				C67FEEC223EF810C00B73D02 /* dogtrackerappTests */,
+				C67FEEAB23EF810A00B73D02 /* foodtrackerapp */,
+				C67FEEC223EF810C00B73D02 /* foodtrackerappTests */,
 				C67FEEAA23EF810A00B73D02 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,7 +84,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C67FEEAB23EF810A00B73D02 /* dogtrackerapp */ = {
+		C67FEEAB23EF810A00B73D02 /* foodtrackerapp */ = {
 			isa = PBXGroup;
 			children = (
 				C67FEEAC23EF810A00B73D02 /* AppDelegate.swift */,
@@ -99,16 +99,16 @@
 				C67FEEB723EF810C00B73D02 /* LaunchScreen.storyboard */,
 				C67FEEBA23EF810C00B73D02 /* Info.plist */,
 			);
-			path = dogtrackerapp;
+			path = foodtrackerapp;
 			sourceTree = "<group>";
 		};
-		C67FEEC223EF810C00B73D02 /* dogtrackerappTests */ = {
+		C67FEEC223EF810C00B73D02 /* foodtrackerappTests */ = {
 			isa = PBXGroup;
 			children = (
-				C67FEEC323EF810C00B73D02 /* dogtrackerappTests.swift */,
+				C67FEEC323EF810C00B73D02 /* foodtrackerappTests.swift */,
 				C67FEEC523EF810C00B73D02 /* Info.plist */,
 			);
-			path = dogtrackerappTests;
+			path = foodtrackerappTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,7 +168,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C67FEEA423EF810A00B73D02 /* Build configuration list for PBXProject "dogtrackerapp" */;
+			buildConfigurationList = C67FEEA423EF810A00B73D02 /* Build configuration list for PBXProject "foodtrackerapp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -226,7 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C67FEEC423EF810C00B73D02 /* dogtrackerappTests.swift in Sources */,
+				C67FEEC423EF810C00B73D02 /* foodtrackerappTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,7 +455,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C67FEEA423EF810A00B73D02 /* Build configuration list for PBXProject "dogtrackerapp" */ = {
+		C67FEEA423EF810A00B73D02 /* Build configuration list for PBXProject "foodtrackerapp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C67FEEC623EF810C00B73D02 /* Debug */,
